@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container  container_MOBILE">
+    <header class="header">
+        <div class="menu__border"></div>
+        <div class="menu__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+         <div class="menu__close ">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header__menu menu">
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Женщинам</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link"> Обувь</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Детям</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Мужчинам</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Дом</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__menu_customer">
+            
+       <p class="header__logo">Товары и точка</p>
+     <img src="img/sprite_svg/mobileserch.svg" class="magnifying_glass">
+      
+       <div class="header__search"> 
+        <input class="header__search_input" type="text" placeholder="Я ищу...">
+    <img src="img/sprite_svg/Search (1).svg" class="header__search_input_glass">
+    </div>
+  
+<div class="header__profile">
+    <button class="header__profile_customer">
+        <a href="https://www.wildberries.ru/security/login?returnUrl=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2F0%2Fsearch.aspx%3Fpage%3D1%26sort%3Dpopular%26search%3Dbeauty%2Bbox%26action%3D168145" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.5207 9.28873C18.5207 12.0587 16.4361 14.2066 14.006 14.2066C11.5759 14.2066 9.49117 12.0587 9.49117 9.31221C9.47931 6.60094 11.5878 4.5 14.006 4.5C16.4241 4.5 18.5207 6.55399 18.5207 9.28873ZM4.5 22.9977C4.5 23.9836 5.14326 24.5 6.94201 24.5H21.058C22.8567 24.5 23.5 23.9836 23.5 22.9977C23.5 20.1338 19.8429 16.1901 14.006 16.1901C8.15705 16.1901 4.5 20.1338 4.5 22.9977Z" fill="white"/>
+          </svg></a>
+          <p> Профиль </p>
+    </button>
+</div>
+<div class="header__basket">
+    <button class="header__basket">
+        <img src="img/sprite_svg/корз.svg" alt="your order" class="header__basket_img"><span class="navbar-pc__notify"></span>
+<p> Корзина</p>
+    </button>
+</div>
+</div>
+    </header>
+    <main class="main">
+    <div class="main__band">
+                <!-- НАЧАЛО БОКОВОЙ СЕКЦИИ -->
+     <aside class="aside">
+<div class="endPrice">
+    <p> Итого</p>
+    <p> 2 101 063 сом</p>
+</div>
+<div class="countGoods">
+    <p>  203 товара</p>
+    <p> 2 302 048 сом</p>
+</div>
+<div class="discountGoods">
+    <p>  Скидка</p>
+    <p> −200 985 сом</p>
+</div>
+<div class="deliveryGood">
+    <p>  Доставка</p>
+    <p>Бесплатно</p>
+</div>
+
+<div class="deliveryPost">
+    <p> Доставка в пункт выдачи</p>
+    <button class="deliveryPost__btn" id="asideChangeDelivery">
+    <img src="img/sprite_svg/ручка.svg">
+</button>
+</div>
+<div class="deliveryFix">
+    <p>  Бишкек, улица Ахматбека Суюмбаева, 12/1</p>
+</div>
+<div class="deliveryDate">
+    <p>  5–8 фев</p>
+</div>
+<div class="deleveryFree">
+    <img src="img/sprite_svg/галочка.svg">
+    <p>Обратная доставка товаров на склад при отказе — <span>бесплатно</span></p>
+</div>
+
+<div class="deliveryPay">
+    <p> Оплата картой </p>
+    <button class="deliveryPost__btn" id="asideChangePayCard">
+    <img src="img/sprite_svg/ручка.svg">
+</button>
+</div>
+<div class="deliveryCart">
+    <button class="deliveryCart_btn">
+   <img src="img/sprite_svg/mir.svg">
+</button >
+   <p>1234 12•• •••• 1234</p>
+</div>
+
+<div class="PayAgree">
+    <div class="PayAgree_checkbox">
+    <input type="checkbox"> 
+    <p>Списать оплату сразу</p>
+</div>
+    <p class="PayAgree_p">Спишем оплату с карты при получении</p>
+</div>
+<div>
+    <button type="submit" class="order"> Заказать </button>
+</div>
+
+<div class="AgreeWithPersonal"> 
+    <img src="img/sprite_svg/yes.svg">
+<p>Соглашаюсь с <a id="AgreeWithPersonal__link" href="https://www.wildberries.ru/services/pravila-polzovaniya-torgovoy-ploshchadkoy" target="_blank">правилами пользования торговой площадкой </a> и возврата</p>
+</div>
+
+
+     </aside>
+ <!-- КОНЕЦ БОКОВОЙ СЕКЦИИ -->
+    </div>
+      <div class="main__basket">
+        <h3 class="main__basket_title">КОРЗИНА </h3>
+           
+        <div class="main__basket_product_tittle">
+            <div>
+        <input type="checkbox" value="all" class="main__basket_product_checkbox chooseAll" onclick="checkAll()" >
+        <label class="main__basket_product_choose" > Выбрать все</label>
+    </div>
+        <button class="main__basket_title_btn"> 
+            <img src="img/sprite_svg/кнопка уборка.svg">
+        </button>
+     </div>
+     <div class="closeSection ">
+        <div class="main__basket_product " id="delt">
+       
+            <input type="checkbox" value="1" class="main__basket_product_checkbox del del choose" >
+            <img src="img/couple.png" class="main__basket_product_photo 1">
+            
+                
+            
+            <div class="main__basket_product_describe del" >
+               
+                <p class="mobile_prise mobPriceCurrent">522 сом</p>
+                <p class="mobile_prise mobPricePrevious">1051 сом</p>
+            <p class="main__basket_product_describe_p">Футболка UZcotton мужская</p> 
+            
+            <p class="main__basket_product_describe_p mob_describe">Цвет: белый   Размер: 56 </p>
+        <p class="main__basket_product_describe_place">  Коледино WB  </p>
+    <p class="main__basket_product_describe_wild"> OOO Вайлдберриз 
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
+            <circle cx="10" cy="10" r="7.5" stroke="#9797AF"/>
+            <path d="M9.88867 7.58691C9.62826 7.58691 9.41504 7.51042 9.24902 7.35742C9.08301 7.20117 9 7.01074 9 6.78613C9 6.55501 9.08301 6.36621 9.24902 6.21973C9.41504 6.07324 9.62826 6 9.88867 6C10.1523 6 10.3656 6.07324 10.5283 6.21973C10.6943 6.36621 10.7773 6.55501 10.7773 6.78613C10.7773 7.02051 10.6943 7.21257 10.5283 7.3623C10.3656 7.51204 10.1523 7.58691 9.88867 7.58691ZM10.6504 13.3779H9.10742V8.37793H10.6504V13.3779Z" fill="#9797AF"/>
+          </svg>
+    </p>
+</div>
+
+<div class="main__basket_product_count del" >
+    <!-- <div class="main__basket_product_count_button">
+    <button class="main__basket_product_count_button-plus firstPlus plus" data-id="tshirt1" id="BlockPlus">+</button>
+    <p class="main__basket_product_count btn-result">1</p>
+    <button class="main__basket_product_count_button-minus firstMinus minus " data-id="tshirt1"  id="block">-</button>
+</div> -->
+<div class="main__basket_product_count_button">
+    <button class="second__basket_product_count_button-plus plus firstPlus plus mobPlus"  data-id="tshirt1" id="BlockPlus">+</button>
+    <p class="second__basket_product_count btn-result firstMinus minus">1</p>
+    <button class="second__basket_product_count_button-minus minus mobMinus "data-id="tshirt1"  id="block"  >-</button>
+    </div>
+<div class="main__basket_product_count_button_result"> Осталось 2 шт.</div>
+<div class="main__basket_product_count_buscet_like_item">
+    <button class="main__basket_product_count_buscet_btn basket_del">
+<img src="img/sprite_svg/basket.svg" alt="delete your goods" class="main__basket_product_delete_btn first_btn "></button>
+<button class="main__basket_product_count_like_btn first_btn">
+<img src="img/sprite_svg/like.svg" alt="like"></button>
+</div>
+</div>
+<div class="main__basket_product_result-price del"> 
+    <p class="main__basket_product_result-price current_price">522 СОМ</p>
+    <p class="main__basket_product_result-price previous_price"> 1051 СОМ</p>
+</div>
+
+</div>
+
+
+
+
+   <div class="second__bascet_product" id="second">
+        
+        <input type="checkbox" value="phone" class="main__basket_product_checkbox del del choose">
+        <img src="img/phone.png" class="main__basket_product_photo 1">
+        <div class="main__basket_product_describe del">
+            <p class="mobile_prise mobPriceCurrent mobPriceCurrentPhone">10500 сом</p>
+            <p class="mobile_prise mobPricePrevious ">11500 сом</p>
+        <p class="second__basket_product_describe_p">Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe</p> 
+      
+        <p class="second__basket_product_describe_p sec_describe_mob_version">Цвет: прозрачный </p>
+    <p class="second__basket_product_describe_place">  Коледино WB  </p>
+<p class="main__basket_product_describe_wild"> OOO Вайлдберриз 
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
+        <circle cx="10" cy="10" r="7.5" stroke="#9797AF"/>
+        <path d="M9.88867 7.58691C9.62826 7.58691 9.41504 7.51042 9.24902 7.35742C9.08301 7.20117 9 7.01074 9 6.78613C9 6.55501 9.08301 6.36621 9.24902 6.21973C9.41504 6.07324 9.62826 6 9.88867 6C10.1523 6 10.3656 6.07324 10.5283 6.21973C10.6943 6.36621 10.7773 6.55501 10.7773 6.78613C10.7773 7.02051 10.6943 7.21257 10.5283 7.3623C10.3656 7.51204 10.1523 7.58691 9.88867 7.58691ZM10.6504 13.3779H9.10742V8.37793H10.6504V13.3779Z" fill="#9797AF"/>
+      </svg>
+</p>
+</div>
+<div class="main__basket_product_count second__basket_product_count del">
+<div class="main__basket_product_count_button">
+<button class="second__basket_product_count_button-plus plus mobCurrentPricePhonePlus" data-id="phone" id="phonePlus">+</button>
+<p class="second__basket_product_count btn-resultOne">1</p>
+<button class="second__basket_product_count_button-minus minus mobCurrentPricePhoneMinus" data-id="phone" id="phoneMinus"  >-</button>
+</div>
+<div class="main__basket_product_count_button_result"> </div>
+<div class="main__basket_product_count_buscet_like_item secondBtn">
+<button class="second__basket_product_count_buscet_btn basket_del">
+
+<img src="img/sprite_svg/basket.svg" alt="delete your goods" class="second__basket_product_delete_btn"></button>
+
+<button class="main__basket_product_count_like_btn busket_like">
+<img src="img/sprite_svg/like.svg" alt="like"></button>
+</div>
+</div>
+<div class="main__basket_product_result-price del"> 
+<p class="second__basket_product_result-price current_price1">10 500 СОМ</p>
+<p class="main__basket_product_result-price previous_price"> 11 500 СОМ</p>
+</div> 
+</div> 
+
+
+
+<div class="thirty__bascet_product" id="thirty">
+        
+    <input type="checkbox" value="pencil" class="main__basket_product_checkbox del del choose">
+    <img src="img/book.png" class="main__basket_product_photo 1">
+    <div class="main__basket_product_describe del">
+        <div class="mobile_prise" >
+        <p class="mobile_prise mobPriceCurrent mobCurrentPricePencil">247 сом</p>
+        <p class="mobile_prise mobPricePrevious">475 сом</p>
+    </div>
+    <p class="thirty__basket_product_describe_p">Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные, <br>Faber-Castell </p> 
+   
+<p class="main__basket_product_describe_place">  Коледино WB  </p>
+<p class="main__basket_product_describe_wild"> OOO Вайлдберриз 
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
+    <circle cx="10" cy="10" r="7.5" stroke="#9797AF"/>
+    <path d="M9.88867 7.58691C9.62826 7.58691 9.41504 7.51042 9.24902 7.35742C9.08301 7.20117 9 7.01074 9 6.78613C9 6.55501 9.08301 6.36621 9.24902 6.21973C9.41504 6.07324 9.62826 6 9.88867 6C10.1523 6 10.3656 6.07324 10.5283 6.21973C10.6943 6.36621 10.7773 6.55501 10.7773 6.78613C10.7773 7.02051 10.6943 7.21257 10.5283 7.3623C10.3656 7.51204 10.1523 7.58691 9.88867 7.58691ZM10.6504 13.3779H9.10742V8.37793H10.6504V13.3779Z" fill="#9797AF"/>
+  </svg>
+</p>
+</div>
+<div class="main__basket_product_count del">
+<div class="main__basket_product_count_button">
+<button class="thirty__basket_product_count_button-plus plus mobCurrentPricePenPlus " data-id="pencil" id="penPlus">+</button>
+<p class="thirty__basket_product_count btn-resultTwo">1</p>
+<button class="thirty__basket_product_count_button-minus minus mobCurrentPricePenMinus" data-id="pencil" id="penMinus"  >-</button>
+</div>
+<div class="main__basket_product_count_button_result"> Осталось 2 шт.</div>
+<div class="main__basket_product_count_button_result"> </div>
+<div class="main__basket_product_count_buscet_like_item">
+<button class="main__basket_product_count_buscet_btn basket_del">
+
+<img src="img/sprite_svg/basket.svg" alt="delete your goods" class="thirty__basket_product_delete_btn" ></button>
+<button class="main__basket_product_count_like_btn">
+<img src="img/sprite_svg/like.svg" alt="like"></button>
+</div>
+</div>
+<div class="main__basket_product_result-price del"> 
+<p class="thirty__basket_product_result-price current_price2">247 СОМ</p>
+<p class="main__basket_product_result-price previous_price"> 475 СОМ</p>
+</div> 
+
+
+</div> 
+</div>
+
+<!-- ВТОРАЯ СЕКЦИЯ -->
+<div class="tittleAbsenceGoods" >
+<p class="tittleAbsenceGoods__p">Отсутсвуют 3 товара </p>
+        <button class="tittleAbsenceGoods__btn">
+        <img src="img/sprite_svg/кнопка уборка.svg" class="tittleAbsenceGoods__btn">
+    </button>
+</div>
+
+ <div class="absence_main__basket" id="absenceGoods" >
+<div class="main__basket_product_tittle" >
+  
+    
+</div>
+    <div class="main__basket_product firstAbsence" id="firstSection">
+      
+        <!-- <input type="checkbox" value="1" class="main__basket_product_checkbox del del choose" > -->
+        <img src="img/couple.png" class="main__basket_product_photo 1">
+        <div class="main__basket_product_describe mob_version del" >
+        <p class="main__basket_product_describe_p  describeAbsence">Футболка UZcotton мужская</p> 
+        <p class="main__basket_product_describe_p">Цвет: белый   Размер: 56 </p>
+    <p class="main__basket_product_describe_place">  Коледино WB  </p>
+<p class="main__basket_product_describe_wild"> OOO Вайлдберриз 
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
+        <circle cx="10" cy="10" r="7.5" stroke="#9797AF"/>
+        <path d="M9.88867 7.58691C9.62826 7.58691 9.41504 7.51042 9.24902 7.35742C9.08301 7.20117 9 7.01074 9 6.78613C9 6.55501 9.08301 6.36621 9.24902 6.21973C9.41504 6.07324 9.62826 6 9.88867 6C10.1523 6 10.3656 6.07324 10.5283 6.21973C10.6943 6.36621 10.7773 6.55501 10.7773 6.78613C10.7773 7.02051 10.6943 7.21257 10.5283 7.3623C10.3656 7.51204 10.1523 7.58691 9.88867 7.58691ZM10.6504 13.3779H9.10742V8.37793H10.6504V13.3779Z" fill="#9797AF"/>
+      </svg>
+</p>
+</div>
+<div class="main__basket_product_count del" >
+<!-- <div class="main__basket_product_count_button">
+<button class="main__basket_product_count_button-plus firstPlus plus" data-id="tshirt1">+</button>
+<p class="main__basket_product_count btn-result">1</p>
+<button class="main__basket_product_count_button-minus firstMinus minus " data-id="tshirt1"  id="block">-</button>
+</div>
+<div class="main__basket_product_count_button_result"> Осталось 2 шт.</div> -->
+<div class="main__basket_product_count_buscet_like_item">
+<button class="main__basket_product_count_buscet_btn basket_del delFirst">
+
+<img src="img/sprite_svg/basket.svg" alt="delete your goods" class="main__basket_product_delete_btn "></button>
+<button class="main__basket_product_count_like_btn">
+<img src="img/sprite_svg/like.svg" alt="like"></button>
+</div>
+</div>
+<!-- <div class="main__basket_product_result-price del"> 
+<p class="main__basket_product_result-price current_price">522 COM</p>
+<p class="main__basket_product_result-price previous_price"> 1051 COM</p>
+</div> -->
+
+</div>
+
+
+
+
+<div class="second__bascet_product secondAbsence" id="secondDel">
+    
+    <!-- <input type="checkbox" value="phone" class="main__basket_product_checkbox del del choose"> -->
+    <img src="img/phone.png" class="main__basket_product_photo 1">
+    <div class="main__basket_product_describe mob_version  del">
+    <p class="main__basket_product_describe_p describeAbsence">Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe</p> 
+    <p class="main__basket_product_describe_p">Цвет: прозрачный </p>
+<p class="main__basket_product_describe_place">  Коледино WB  </p>
+<p class="main__basket_product_describe_wild"> OOO Вайлдберриз 
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
+    <circle cx="10" cy="10" r="7.5" stroke="#9797AF"/>
+    <path d="M9.88867 7.58691C9.62826 7.58691 9.41504 7.51042 9.24902 7.35742C9.08301 7.20117 9 7.01074 9 6.78613C9 6.55501 9.08301 6.36621 9.24902 6.21973C9.41504 6.07324 9.62826 6 9.88867 6C10.1523 6 10.3656 6.07324 10.5283 6.21973C10.6943 6.36621 10.7773 6.55501 10.7773 6.78613C10.7773 7.02051 10.6943 7.21257 10.5283 7.3623C10.3656 7.51204 10.1523 7.58691 9.88867 7.58691ZM10.6504 13.3779H9.10742V8.37793H10.6504V13.3779Z" fill="#9797AF"/>
+  </svg>
+</p>
+</div>
+<div class="main__basket_product_count del">
+<!-- <div class="main__basket_product_count_button">
+<button class="second__basket_product_count_button-plus plus" data-id="phone">+</button>
+<p class="second__basket_product_count btn-resultOne">1</p>
+<button class="second__basket_product_count_button-minus minus " data-id="phone"  >-</button>
+</div>
+<div class="main__basket_product_count_button_result"> </div> -->
+<div class="main__basket_product_count_buscet_like_item">
+<button class="second__basket_product_count_buscet_btn basket_del">
+
+<img src="img/sprite_svg/basket.svg" alt="delete your goods" class="second__basket_product_delete_btn delSec"></button>
+<button class="main__basket_product_count_like_btn">
+<img src="img/sprite_svg/like.svg" alt="like"></button>
+</div>
+</div>
+<!-- <div class="main__basket_product_result-price del"> 
+<p class="second__basket_product_result-price current_price1">10 500 COM</p>
+<p class="main__basket_product_result-price previous_price"> 11 500 COM</p>
+</div> 
+</div>  -->
+
+
+
+<div class="thirty__bascet_product thirtyAbsence" id="thirtyDel">
+    
+<!-- <input type="checkbox" value="pencil" class="main__basket_product_checkbox del del choose"> -->
+<img src="img/book.png" class="main__basket_product_photo 1">
+<div class="main__basket_product_describe mob_version  del">
+<p class="main__basket_product_describe_p describeAbsence">Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные, <br>Faber-Castell </p> 
+
+<p class="main__basket_product_describe_place">  Коледино WB  </p>
+<p class="main__basket_product_describe_wild"> OOO Вайлдберриз 
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
+<circle cx="10" cy="10" r="7.5" stroke="#9797AF"/>
+<path d="M9.88867 7.58691C9.62826 7.58691 9.41504 7.51042 9.24902 7.35742C9.08301 7.20117 9 7.01074 9 6.78613C9 6.55501 9.08301 6.36621 9.24902 6.21973C9.41504 6.07324 9.62826 6 9.88867 6C10.1523 6 10.3656 6.07324 10.5283 6.21973C10.6943 6.36621 10.7773 6.55501 10.7773 6.78613C10.7773 7.02051 10.6943 7.21257 10.5283 7.3623C10.3656 7.51204 10.1523 7.58691 9.88867 7.58691ZM10.6504 13.3779H9.10742V8.37793H10.6504V13.3779Z" fill="#9797AF"/>
+</svg>
+</p>
+</div>
+<div class="main__basket_product_count del" >
+<!-- <div class="main__basket_product_count_button">
+<button class="thirty__basket_product_count_button-plus plus" data-id="pencil">+</button>
+<p class="thirty__basket_product_count btn-resultTwo">1</p>
+<button class="thirty__basket_product_count_button-minus minus " data-id="pencil"  >-</button>
+</div>
+<div class="main__basket_product_count_button_result"> Осталось 2 шт.</div> -->
+<div class="main__basket_product_count_button_result"> </div>
+<div class="main__basket_product_count_buscet_like_item">
+<button class="main__basket_product_count_buscet_btn basket_del mobile_btn_absence">
+
+<img src="img/sprite_svg/basket.svg" alt="delete your goods" class="thirty__basket_product_delete_btn delthree" ></button>
+<button class="main__basket_product_count_like_btn">
+<img src="img/sprite_svg/like.svg" alt="like"></button>
+</div>
+</div>
+<!-- <div class="main__basket_product_result-price del"> 
+<p class="thirty__basket_product_result-price current_price2">247 COM</p>
+<p class="main__basket_product_result-price previous_price"> 11 500 COM</p>
+</div>  -->
+
+
+</div> 
+</div>
+</div> 
+
+
+<!-- Третья секция -->
+
+
+<div class="section__delevery">
+<div class="tittleAbsenceGoods delevery " >
+    <p class="delevery_p">Способ Доставки  </p>
+            <button class="delevery__btn" id="opnModal">
+            Изменить
+        </button>
+
+    </div>
+    <div class="section__delevery_main">
+<p class="delуvery_methods"> Пункт выдачи </p>
+<div class="post__offise">
+<p class="post__offise_street">Бишкек, улица Ахматбека Суюмбаева, 12/1</p>
+<p class="post__offise_time">
+    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.69769 1.14922C6.43817 0.528396 5.56198 0.528387 5.30244 1.14919L6.69769 1.14922ZM5.30244 1.14919L4.14719 3.90977L1.19202 4.16613C0.519264 4.22467 0.262282 5.05966 0.759713 5.49464L3.00514 7.45915L2.33207 10.3824C2.18436 11.0238 2.87792 11.5567 3.46133 11.2023L6.00032 9.65611L8.53797 11.2015C9.12269 11.5588 9.81568 11.0227 9.66861 10.3826L8.99549 7.45915L11.2402 5.49537C11.7385 5.05961 11.4793 4.22519 10.8083 4.16667L7.85294 3.91029L6.69769 1.14922" fill="#FF970D"/>
+        </svg> 4.99 Ежедневно с 10 до 21 </p>
+</div>
+<p class="delevery_price"> Стоимость доставки</p>
+<p class="post_price">Бесплатно</p>
+<p class="delevery_time"> 5-6 февраля</p>
+<div class="post_goods_photo">
+    <img src="img/couple.png">
+    <img src="img/book.png" class="book">
+    <span class="bookspan">184</span>
+    <img src="img/phone.png" class="phone">
+    <span class="phonespan">2</span>
+</div>
+
+<p class="delevery_time"> 7-8 февраля</p>
+<div class="post_goods_photo">
+    <img src="img/phone.png" class="latephone">
+    <span class="latephoneSpan">16</span>
+</div>
+<div class="freeRefuce">
+    <img src="img/sprite_svg/галочка.svg" class="freeRefuce">
+    <p class="freeRefuce freeRefuce_p">Обратная доставка товаров на склад при отказе  — <span>  бесплатно</span></p>
+</div>
+<!-- СЕКЦИЯ С МОДАЛЬНЫМ ОКНОМ ДОСТАВКА -->
+<div class="modal" id="modalDelevery">
+    <div class="modal_box">
+        <h2 class="modal_box_post"> Способ доставки</h2>
+        <button class="modal_box_btn" id="clsModalBox"><img src="img/sprite_svg/кнопкаWLD.png" class="modal_box_btn"></button>
+        
+        <button class="modal__btn"> Пункт выдачи</button>
+        <button class="modal__btn2"> Курьером </button>
+    </div>
+</div>
+<!-- СЕКЦИЯ С МОДАЛЬНЫМ ОКНОМ ДОСТАВКА -->
+</div>
+<!-- закрытие section__delevery_main -->
+    </div>
+    <!-- " верхний див это послений div секиции доставки" -->
+
+    <div class="section_payment">
+        <div class="tittleAbsenceGoods delevery " >
+            <p class="delevery_p">Способ оплаты  </p>
+                    <button class="delevery__btn" id="opnPaymentSection">
+                    Изменить
+                </button>
+     </div>
+    <div class="section_payment_cart">
+        <img src="img/sprite_svg/mir.svg">
+        <p>1234 56•• •••• 1234</p>
+        <p>01/30</p>
+    </div>
+    <div class="section_payment_after">Спишем оплату с карты при получении</div>
+     
+
+<!--  СЕКЦИЯ С МОДАЛЬНЫМ ОКНОМ ОПЛАТА --> 
+    <div class="payment_modal">
+<div class="payment_modal_box">
+    <button class="payment_modal_box_btn"> <img src="img/sprite_svg/кнопкаWLD.png"></button>
+    <h4>Способы оплаты</h4>
+</div>
+</div>
+<!-- парный div payment modal -->
+<!--  СЕКЦИЯ С МОДАЛЬНЫМ ОКНОМ ОПЛАТА --> 
+</div>
+
+
+
+
+<div class="section__form">
+<h2> Получатель</h2>
+<div class="main_form">
+    <form action="#" id="form">
+        <div class="main_form_name" id="main_input_name">
+            <div class="main_form_input">
+             <label for="input_name" class="label label_name" id="labelName"></label>
+            <input type="text" class="main_form_input inputCastom" id="input_name"  placeholder="Имя"> 
+        </div>
+
+        <div class="main_form_input">
+          <div>  <label for="input_secname" class="label label_secname" id="labelSecName"></label></div> 
+            <input type="text" placeholder="Фамилия" id="input_secname" class="main_form_input inputCastom"> 
+        </div>
+        </div>
+
+        <div class="main_form_tel">
+            <div class="main_form_tel_input">
+            <label for="input_mail" class="labelContact label_mail" id="labelMail"></label> 
+            <input type="text" placeholder="Почта" class="main_form_tel_input inputCastom" id="input_mail"> 
+        </div>
+
+        <div class="main_form_tel_input">
+             <label class="labelContact label_tel" for="input_tel" id="labelTel"></label>
+            <input type="tel" placeholder="Телефон" class="main_form_tel_input inputCastom" id="input_tel"> 
+        </div>
+
+        <div class="main_form_tel_input">
+            <label class="labelContact label_doc" for="input_doc" id="labelDoc"></label>
+            <input type="text" placeholder="ИНН" id="input_doc" class="main_form_tel_input inputCastom"> 
+            <p class="main_form_tel_p">Для таможенного оформления</p>
+        </div>
+        <!-- <button type="submit" class="order"> Заказать </button> -->
+        </div>
+     
+        
+    </form>
+
+    
+    
+    
+    
+      </div>
+    </div>
+    
+</div>
+
+ </div> 
+    <!-- ЗАКРЫВАЮЩИЙ ДИВ ФОРМЫ section__form -->
+    
+      
+        
+    </div>
+    </div>
+    <div class="mobile_aside">
+        <div class="endPrice">
+            <p class="endPrice_result"> Итого</p>
+            <p class="endPrice_price"> 2 101 063 сом</p>
+        </div>
+        <div class="countGoods">
+            <p class="countGoods_count">  203 товара</p>
+            <p> 2 302 048 сом</p>
+        </div>
+        <div class="discountGoods">
+            <p>  Скидка</p>
+            <p> −200 985 сом</p>
+        </div>
+        <div class="deliveryGood">
+            <p>  Доставка</p>
+            <p>Бесплатно</p>
+        </div>
+        
+        
+        <div class="deleveryFree">
+            <img src="img/sprite_svg/галочка.svg">
+            <p>Обратная доставка товаров на склад при отказе — <span>бесплатно</span></p>
+        </div>
+        
+        
+        <div class="PayAgree">
+            <div class="PayAgree_checkbox">
+            <input type="checkbox"> 
+            <p>Списать оплату сразу</p>
+        </div>
+            <p class="PayAgree_p">Спишем оплату с карты при получении</p>
+        </div>
+        <div>
+            <button type="submit" class="order orderMob"> Заказать </button>
+        </div>
+        
+        <div class="AgreeWithPersonal"> 
+            <img src="img/sprite_svg/yes.svg">
+        <p>Соглашаюсь с <a id="AgreeWithPersonal__link" href="https://www.wildberries.ru/services/pravila-polzovaniya-torgovoy-ploshchadkoy" target="_blank">правилами пользования торговой площадкой </a> и возврата</p>
+        </div>
+        </div>
+    
+   
+    </main>
+    
+<!-- </div> -->
+
+<footer class="footer">
+    <div class="band_finish"></div>  
+<h5>© 2022  ООО «Товары и точка»</h5>
+
+</footer>
+
+<div class="profile">
+    <a> <img src="img/sprite_svg/main.svg" alt="main part"></a>
+    <a> <img src="img/sprite_svg/catalog.svg" alt="main part" class="loose" ></a>
+    <a > <img src="img/sprite_svg/cart.svg" alt="main part" ><span class="navbar-pc__notify navbarMob">3</span></a>
+    <a> <img src="img/sprite_svg/favorites.svg" alt="main part"></a>
+    <a> <img src="img/sprite_svg/profile.svg" alt="main part"></a>
+
+</div>
+
+
+
+
+
+<!-- ДЛЯ МОБИЛЬНОЙ ВЕРСИИ ДЛЯ МОБИЛЬНОЙ ВЕРСИИ ДЛЯ МОБИЛЬНОЙ ВЕРСИИ ДЛЯ МОБИЛЬНОЙ ВЕРСИИ ДЛЯ МОБИЛЬНОЙ ВЕРСИИ ДЛЯ МОБИЛЬНОЙ ВЕРСИИ ДЛЯ МОБИЛЬНОЙ ВЕРСИИ ДЛЯ МОБИЛЬНОЙ ВЕРСИИ  -->
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
